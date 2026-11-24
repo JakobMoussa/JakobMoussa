@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Jakob Moussa — Frontend Developer. Angular &amp; TypeScript. Real-time apps &amp; AI integrations."><title>Jakob Moussa — Frontend Developer. Angular &amp; TypeScript. Real-time apps &amp; AI integrations.</title><defs>
+      <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172b50"/><stop offset="1" stop-color="#23234c"/></linearGradient>
+      <linearGradient id="accent"><stop stop-color="#60a5fa"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+      <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#a9c5ed" stroke-opacity=".07"/></pattern>
+    </defs>
+    <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+    <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+    <rect x="48" y="48" width="40" height="4" rx="2" fill="#5eead4"/>
+    <text x="102" y="56" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="3" fill="#bfcef0">FRONTEND DEVELOPER</text>
+    <text x="46" y="157" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="700" letter-spacing="-3" fill="#f8fafc">Jakob Moussa</text>
+    <text x="50" y="205" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#c6d5ee">Interfaces. Logic. Data.</text>
+    <path d="M50 248H724" stroke="#536789" stroke-opacity=".65"/>
+    <text x="50" y="291" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#e0eaff">Angular &amp; TypeScript</text>
+    <circle cx="292" cy="285" r="3" fill="#a78bfa"/>
+    <text x="312" y="291" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#e0eaff">Real-time apps &amp; AI integrations</text>
+    <g fill="none" stroke="url(#accent)" stroke-width="2">
+      <rect x="848" y="71" width="220" height="220" rx="24" transform="rotate(-12 958 181)" opacity=".28"/>
+      <rect x="888" y="51" width="220" height="220" rx="24" transform="rotate(12 998 161)" opacity=".48"/>
+      <rect x="876" y="66" width="220" height="220" rx="24" fill="#15213c"/>
+      <path d="M944 133L913 164L944 195M1028 133L1059 164L1028 195M1000 119L972 209" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <circle cx="926" cy="248" r="4" fill="#60a5fa"/><path d="M934 248H982" stroke="#526585"/>
+    <circle cx="990" cy="248" r="4" fill="#a78bfa"/><path d="M998 248H1046" stroke="#526585"/>
+    <circle cx="1054" cy="248" r="4" fill="#5eead4"/>
+    <rect x="48" y="337" width="1104" height="3" rx="1.5" fill="url(#accent)"/>
+    </svg>

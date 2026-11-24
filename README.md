@@ -1,86 +1,231 @@
-# Hi, I'm Jakob Moussa 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="Jakob Moussa — Frontend Developer. Angular &amp; TypeScript. Real-time apps &amp; AI integrations." width="1200">
+</picture>
 
-**Frontend Developer · Angular & TypeScript · Germany**
+# Frontend Developer
 
-I enjoy building web applications that go beyond static interfaces — from real-time surveys and team communication tools to AI-powered recipe generation.
+**Angular & TypeScript · Real-time Applications & AI Integrations · Germany**
 
-My path into software development is a career change. Working on practical projects has taught me how to turn ideas into usable interfaces, connect applications to backend services and work through technical challenges. I particularly enjoy the point where UI, application logic and data come together.
+[![Portfolio repository](assets/badges/portfolio.svg)](https://github.com/JakobMoussa/portfolio)
+[![GitHub](assets/badges/github.svg)](https://github.com/JakobMoussa)
+[![LinkedIn](assets/badges/linkedin.svg)](https://www.linkedin.com/in/jakob-moussa/)
+[![Open to work](assets/badges/open-to-work.svg)](#lets-connect)
 
-I'm currently looking for a frontend development role where I can contribute to real products, work with an experienced team and grow as a developer.
+I'm Jakob. I enjoy the point where **UI, application logic and data come together** — whether that's a live survey, a team conversation or a recipe generated from the ingredients you have.
 
-[View my portfolio repository](https://github.com/JakobMoussa/portfolio) · [Explore my repositories](https://github.com/JakobMoussa?tab=repositories)
+My path into software development is a career change. Practical projects have taught me to turn ideas into usable interfaces, connect frontends to backend services and work through technical challenges. I'm looking for a frontend role where I can contribute, learn from an experienced team and keep growing.
 
-## Technologies I've worked with
-
-| Area | Technologies |
-| --- | --- |
-| Frontend | Angular, TypeScript, JavaScript, HTML5, CSS3, SCSS |
-| Application logic | Angular Signals, RxJS, REST APIs |
-| Backend & integration | Supabase, Firebase, n8n, Google Gemini |
-| Additional project technologies | Next.js, React, PostgreSQL, Prisma, Docker |
-| Development tooling | Git, GitHub, Vite |
+**Explore:** [Projects](#selected-projects) · [Technologies](#technologies-in-context) · [Let's connect](#lets-connect)
 
 ## Selected projects
 
-### [Code à Cuisine](https://github.com/JakobMoussa/Code-Cuisine) — AI-powered recipe generator
+### 01 / Code à Cuisine
 
-An Angular application that generates personalized recipes based on ingredients and dietary preferences through an n8n workflow connected to Google Gemini.
+**From ingredients to personalized recipes.** An Angular frontend connected to an n8n workflow and Google Gemini.
 
-- Shared application state with Angular Signals
-- HTTP integration, response validation, loading and error states
-- AI credentials kept outside the frontend
+<a href="https://jakob-moussa.developerakademie.net/code-a-cuisine/">
+  <img src="assets/projects/code-a-cuisine.jpg" alt="Code à Cuisine live application: green landing page with recipe generator and cookbook entry points" width="960">
+</a>
 
-**Angular · TypeScript · Signals · n8n · Gemini**
+<p>
+  <img src="assets/icons/angular.svg" alt="Angular" height="30">
+  <img src="assets/icons/typescript.svg" alt="TypeScript" height="30">
+  <img src="assets/icons/n8n.svg" alt="n8n" height="30">
+  <img src="assets/icons/gemini.svg" alt="Google Gemini" height="30">
+</p>
 
-[Live demo](https://jakob-moussa.developerakademie.net/code-a-cuisine/) · [Source code](https://github.com/JakobMoussa/Code-Cuisine)
+- Shared application state with Angular Signals.
+- HTTP integration, response validation and explicit loading and error states.
+- Recipe generation is handled through n8n; Gemini credentials stay outside the frontend.
 
-### [PollApp](https://github.com/JakobMoussa/PollApp) — Real-time surveys
+[![Source code](assets/badges/source.svg)](https://github.com/JakobMoussa/Code-Cuisine) [![Live demo](assets/badges/demo.svg)](https://jakob-moussa.developerakademie.net/code-a-cuisine/)
 
-A responsive polling application for creating surveys, submitting votes and viewing results. The project combines Angular with Supabase for data persistence and real-time updates.
+---
 
-- Poll creation, voting and category filtering
-- Live results and real-time updates
-- Feature-based Angular structure and shared services
+### 02 / PollApp
 
-**Angular · TypeScript · Supabase · SCSS**
+**Collect opinions and turn them into results.** A responsive survey application with Angular and Supabase.
 
-[Live demo](https://jakob-moussa.developerakademie.net/pollapp/) · [Source code](https://github.com/JakobMoussa/PollApp)
+<a href="https://jakob-moussa.developerakademie.net/pollapp/">
+  <img src="assets/projects/pollapp.jpg" alt="PollApp live application: survey landing page with a New survey action and feedback illustration" width="960">
+</a>
 
-### [DABubble](https://github.com/JakobMoussa/Dabubble) — Team communication
+<p>
+  <img src="assets/icons/angular.svg" alt="Angular" height="30">
+  <img src="assets/icons/typescript.svg" alt="TypeScript" height="30">
+  <img src="assets/icons/supabase.svg" alt="Supabase" height="30">
+  <img src="assets/icons/sass.svg" alt="SCSS" height="30">
+</p>
 
-A Slack-inspired messaging application built with Angular, featuring channels, direct messages and threads. A project exploring more complex user interfaces and application structures.
+- Survey creation, voting, results and category filtering.
+- Supabase data persistence and real-time updates.
+- Feature-based Angular structure with shared services.
 
-**Angular · TypeScript · Firebase · RxJS**
+[![Source code](assets/badges/source.svg)](https://github.com/JakobMoussa/PollApp) [![Live demo](assets/badges/demo.svg)](https://jakob-moussa.developerakademie.net/pollapp/)
 
-[Source code](https://github.com/JakobMoussa/Dabubble)
+---
 
-### [Dialogue](https://github.com/JakobMoussa/botbuilder) — Self-hosted chatbot builder
+### 03 / DABubble
 
-A chatbot platform with a knowledge base, a management dashboard and an embeddable website widget. The repository also includes tooling for browser tests, integration tests and static checks.
+**Team conversations, connected.** A Slack-inspired messaging application with channels, direct messages and threads.
 
-**Next.js · TypeScript · PostgreSQL · Prisma · Docker · Tailwind CSS**
+<a href="https://github.com/JakobMoussa/Dabubble">
+  <img src="assets/projects/dabubble.png" alt="Existing DABubble portfolio preview showing the channel sidebar, conversation and thread panel in a laptop mockup" width="520">
+</a>
 
-[Source code](https://github.com/JakobMoussa/botbuilder)
+<sub>Existing project preview from my portfolio repository.</sub>
 
-### [Join](https://github.com/JakobMoussa/Join-Project) — Kanban task management
+<p>
+  <img src="assets/icons/angular.svg" alt="Angular" height="30">
+  <img src="assets/icons/typescript.svg" alt="TypeScript" height="30">
+  <img src="assets/icons/firebase.svg" alt="Firebase" height="30">
+  <img src="assets/icons/rxjs.svg" alt="RxJS" height="30">
+</p>
 
-A web application for organizing tasks, tracking progress and managing team workflows with an interactive Kanban board and Firebase-backed data.
+- Firestore-backed message streams exposed as RxJS observables.
+- Channels, direct conversations, thread replies and reactions.
 
-**JavaScript · HTML · CSS · Firebase**
+[![Source code](assets/badges/source.svg)](https://github.com/JakobMoussa/Dabubble)
 
-[Live demo](https://jakob-moussa.developerakademie.net/Join/index.html) · [Source code](https://github.com/JakobMoussa/Join-Project)
+---
 
-## What I care about in development
+### 04 / Dialogue
 
-- Interfaces that are easy to use across devices
-- Code that is readable and organized
-- Thoughtful handling of loading states, errors and user interactions
-- Understanding how applications work, not just getting them to run
+**A chatbot builder with its own knowledge base.** A self-hosted project with a management dashboard and an embeddable website widget.
 
-I'm interested in deepening my experience with Angular architecture, automated testing and accessibility.
+<p>
+  <img src="assets/icons/nextjs.svg" alt="Next.js" height="30">
+  <img src="assets/icons/react.svg" alt="React" height="30">
+  <img src="assets/icons/typescript.svg" alt="TypeScript" height="30">
+  <img src="assets/icons/postgresql.svg" alt="PostgreSQL" height="30">
+  <img src="assets/icons/prisma.svg" alt="Prisma" height="30">
+  <img src="assets/icons/docker.svg" alt="Docker" height="30">
+</p>
+
+- Dashboard flows for workspaces, knowledge sources and widget configuration.
+- A separate worker processes knowledge sources.
+- The repository includes Vitest and Playwright configurations and tests.
+
+[![Source code](assets/badges/source.svg)](https://github.com/JakobMoussa/botbuilder)
+
+---
+
+### 05 / Join
+
+**From to-do to done.** A collaborative Kanban project built with JavaScript, HTML, CSS and Firebase.
+
+<a href="https://jakob-moussa.developerakademie.net/Join/index.html">
+  <img src="assets/projects/join.jpg" alt="Join live application in guest mode: Kanban board with task columns, priorities and subtask progress" width="960">
+</a>
+
+<p>
+  <img src="assets/icons/javascript.svg" alt="JavaScript" height="30">
+  <img src="assets/icons/html5.svg" alt="HTML5" height="30">
+  <img src="assets/icons/css3.svg" alt="CSS3" height="30">
+  <img src="assets/icons/firebase.svg" alt="Firebase" height="30">
+</p>
+
+- Drag-and-drop task management, search and subtask progress.
+- Firebase-backed persistence and a guest entry point for exploring the application.
+
+[![Source code](assets/badges/source.svg)](https://github.com/JakobMoussa/Join-Project) [![Live demo](assets/badges/demo.svg)](https://jakob-moussa.developerakademie.net/Join/index.html)
+
+---
+
+### 06 / Portfolio
+
+**A personal home for my work.** A frontend portfolio built with HTML, CSS and JavaScript.
+
+<a href="https://github.com/JakobMoussa/portfolio">
+  <img src="assets/projects/portfolio.jpg" alt="Portfolio website rendered locally from the unchanged repository: Jakob Moussa, Frontend Developer, with profile photograph and project navigation" width="960">
+</a>
+
+<sub>Screenshot of the unchanged portfolio repository, rendered locally.</sub>
+
+<p>
+  <img src="assets/icons/html5.svg" alt="HTML5" height="30">
+  <img src="assets/icons/css3.svg" alt="CSS3" height="30">
+  <img src="assets/icons/javascript.svg" alt="JavaScript" height="30">
+</p>
+
+- Responsive project presentation and reusable JavaScript templates.
+- German/English language switching and client-side contact-form validation.
+
+[![Source code](assets/badges/source.svg)](https://github.com/JakobMoussa/portfolio)
+
+## Technologies in context
+
+**My focus:** Angular, TypeScript, responsive interfaces, application state and API integration. The other tools below reflect specific projects and their tooling, rather than equal depth in every technology.
+
+### Frontend Development
+
+Core frontend work:
+
+<p>
+  <img src="assets/icons/angular.svg" alt="Angular" height="30">
+  <img src="assets/icons/typescript.svg" alt="TypeScript" height="30">
+  <img src="assets/icons/javascript.svg" alt="JavaScript" height="30">
+  <img src="assets/icons/html5.svg" alt="HTML5" height="30">
+  <img src="assets/icons/css3.svg" alt="CSS3" height="30">
+  <img src="assets/icons/sass.svg" alt="SCSS" height="30">
+  <img src="assets/icons/rxjs.svg" alt="RxJS" height="30">
+</p>
+
+Additional project experience through Dialogue:
+
+<p>
+  <img src="assets/icons/react.svg" alt="React" height="30">
+  <img src="assets/icons/nextjs.svg" alt="Next.js" height="30">
+</p>
+
+### Backend & Database
+
+Firebase and Supabase integrations in frontend projects; PostgreSQL and Prisma in Dialogue.
+
+<p>
+  <img src="assets/icons/firebase.svg" alt="Firebase" height="30">
+  <img src="assets/icons/supabase.svg" alt="Supabase" height="30">
+  <img src="assets/icons/postgresql.svg" alt="PostgreSQL" height="30">
+  <img src="assets/icons/prisma.svg" alt="Prisma" height="30">
+</p>
+
+### AI & Automation
+
+Recipe-generation workflow in Code à Cuisine:
+
+<p>
+  <img src="assets/icons/n8n.svg" alt="n8n" height="30">
+  <img src="assets/icons/gemini.svg" alt="Google Gemini" height="30">
+</p>
+
+### Development & Testing
+
+Git and GitHub for version control. Docker in Dialogue, Vite in Memory, and VS Code configuration in my repositories. Playwright and Vitest are present in project tooling; I'm continuing to deepen my testing practice.
+
+<p>
+  <img src="assets/icons/git.svg" alt="Git" height="30">
+  <img src="assets/icons/github.svg" alt="GitHub" height="30">
+  <img src="assets/icons/docker.svg" alt="Docker" height="30">
+  <img src="assets/icons/vitejs.svg" alt="Vite" height="30">
+  <img src="assets/icons/vscode.svg" alt="VS Code" height="30">
+  <img src="assets/icons/playwright.svg" alt="Playwright" height="30">
+  <img src="assets/icons/vitest.svg" alt="Vitest" height="30">
+</p>
+
+## What I care about
+
+- Interfaces that are easy to use across devices.
+- Readable code and clear boundaries between UI, state and data.
+- Thoughtful handling of loading states, errors and user interactions.
+- Understanding why a solution works, not just getting it to run.
+
+I'm currently deepening my understanding of Angular architecture, automated testing and accessibility.
 
 ## Let's connect
 
-I'm open to frontend development opportunities in Germany and happy to discuss my projects, technical decisions and what I've learned along the way.
+**Open to frontend development opportunities in Germany.** I'd be happy to walk through my projects, discuss technical decisions and share what I've learned along the way.
 
-[GitHub](https://github.com/JakobMoussa)
+[LinkedIn](https://www.linkedin.com/in/jakob-moussa/) · [GitHub](https://github.com/JakobMoussa) · [Portfolio repository](https://github.com/JakobMoussa/portfolio)
+
+<sub>Banner, badges and icons are stored in this repository. [Visual sources and credits](assets/SOURCES.md).</sub>
